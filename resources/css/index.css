@@ -6,22 +6,59 @@ body {
     text-align: center;
 }
 
+flex {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     height: 69px;
     border-bottom: 1px solid seashell;
     position: fixed;
     width: 100%;
+    z-index: 1;
+    background-color: black;
+    align-items: center;
 }
 
 header img {
     height: 50px;
-    margin-left: 10px;
-    float: left;
+    padding-left: 10px;
 }
 
 nav {
     float: right;
+    padding-right: 10px;
 }
 nav span{
     text-decoration: underline;
 }
+
+a {
+    color: seashell;
+}
+
+main {
+    padding-top: 69px;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Main Mission section */
+#mission {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#mission .content{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+}
+
+/* Tea shop*/
